@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 841582100,
+              "duration": 1692873000,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 104300,
+              "duration": 1399300,
               "status": "passed"
             },
             "line": 5,
@@ -39,7 +39,7 @@
         "before": [
           {
             "result": {
-              "duration": 702800,
+              "duration": 1715300,
               "status": "passed"
             },
             "match": {
@@ -54,8 +54,9 @@
         "after": [
           {
             "result": {
-              "duration": 198200,
-              "status": "passed"
+              "duration": 1607800,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.adactin.baseclass.BaseClass.getScreenshot(BaseClass.java:121)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.afterHooks(Scenario)"
@@ -67,7 +68,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1547130000,
+              "duration": 278058700,
               "status": "passed"
             },
             "line": 9,
@@ -79,8 +80,9 @@
           },
           {
             "result": {
-              "duration": 267926900,
-              "status": "passed"
+              "duration": 714544600,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.adactin.baseclass.BaseClass.waitForElementVisibility(BaseClass.java:54)\r\n\tat com.adactin.baseclass.BaseClass.inputToElement(BaseClass.java:60)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_enters_the_valid_in_Username_filed(StepDefinition.java:59)\r\n\tat ✽.When User enters the valid \"AAAA\" in Username filed(src/test/java/com/adactin/feature/Adactin.feature:10)\r\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "User enters the valid \"AAAA\" in Username filed",
@@ -100,8 +102,7 @@
           },
           {
             "result": {
-              "duration": 124084100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User enters the valid \"1111\" in password field",
@@ -121,8 +122,7 @@
           },
           {
             "result": {
-              "duration": 350364000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User click on the Login Button",
@@ -133,8 +133,7 @@
           },
           {
             "result": {
-              "duration": 33300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "User verify the Homepage navigate to Search Hotel Page",
@@ -160,7 +159,7 @@
         "steps": [
           {
             "result": {
-              "duration": 139200,
+              "duration": 972000,
               "status": "passed"
             },
             "line": 4,
@@ -172,7 +171,7 @@
           },
           {
             "result": {
-              "duration": 107300,
+              "duration": 1296100,
               "status": "passed"
             },
             "line": 5,
@@ -188,7 +187,7 @@
         "before": [
           {
             "result": {
-              "duration": 990700,
+              "duration": 1005400,
               "status": "passed"
             },
             "match": {
@@ -203,8 +202,9 @@
         "after": [
           {
             "result": {
-              "duration": 147300,
-              "status": "passed"
+              "duration": 1610200,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.adactin.baseclass.BaseClass.getScreenshot(BaseClass.java:121)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.afterHooks(Scenario)"
@@ -216,7 +216,7 @@
         "steps": [
           {
             "result": {
-              "duration": 260224900,
+              "duration": 281406700,
               "status": "passed"
             },
             "line": 9,
@@ -228,8 +228,9 @@
           },
           {
             "result": {
-              "duration": 128141000,
-              "status": "passed"
+              "duration": 771000,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.adactin.baseclass.BaseClass.waitForElementVisibility(BaseClass.java:54)\r\n\tat com.adactin.baseclass.BaseClass.inputToElement(BaseClass.java:60)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_enters_the_valid_in_Username_filed(StepDefinition.java:59)\r\n\tat ✽.When User enters the valid \"BBBB\" in Username filed(src/test/java/com/adactin/feature/Adactin.feature:10)\r\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "User enters the valid \"BBBB\" in Username filed",
@@ -249,8 +250,7 @@
           },
           {
             "result": {
-              "duration": 110123300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User enters the valid \"2222\" in password field",
@@ -270,8 +270,7 @@
           },
           {
             "result": {
-              "duration": 304178000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User click on the Login Button",
@@ -282,8 +281,7 @@
           },
           {
             "result": {
-              "duration": 28300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "User verify the Homepage navigate to Search Hotel Page",
@@ -309,7 +307,7 @@
         "steps": [
           {
             "result": {
-              "duration": 118200,
+              "duration": 4200100,
               "status": "passed"
             },
             "line": 4,
@@ -321,7 +319,7 @@
           },
           {
             "result": {
-              "duration": 77900,
+              "duration": 2154300,
               "status": "passed"
             },
             "line": 5,
@@ -337,7 +335,7 @@
         "before": [
           {
             "result": {
-              "duration": 137300,
+              "duration": 11620300,
               "status": "passed"
             },
             "match": {
@@ -352,8 +350,9 @@
         "after": [
           {
             "result": {
-              "duration": 80800,
-              "status": "passed"
+              "duration": 1055100,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.adactin.baseclass.BaseClass.getScreenshot(BaseClass.java:121)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.afterHooks(Scenario)"
@@ -365,7 +364,7 @@
         "steps": [
           {
             "result": {
-              "duration": 232577300,
+              "duration": 266944300,
               "status": "passed"
             },
             "line": 9,
@@ -377,8 +376,9 @@
           },
           {
             "result": {
-              "duration": 151152300,
-              "status": "passed"
+              "duration": 677700,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.adactin.baseclass.BaseClass.waitForElementVisibility(BaseClass.java:54)\r\n\tat com.adactin.baseclass.BaseClass.inputToElement(BaseClass.java:60)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_enters_the_valid_in_Username_filed(StepDefinition.java:59)\r\n\tat ✽.When User enters the valid \"RamyaBalakrishnan\" in Username filed(src/test/java/com/adactin/feature/Adactin.feature:10)\r\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "User enters the valid \"RamyaBalakrishnan\" in Username filed",
@@ -398,8 +398,7 @@
           },
           {
             "result": {
-              "duration": 256108100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User enters the valid \"neharithikha\" in password field",
@@ -419,8 +418,7 @@
           },
           {
             "result": {
-              "duration": 1330098400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User click on the Login Button",
@@ -431,8 +429,7 @@
           },
           {
             "result": {
-              "duration": 14900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "User verify the Homepage navigate to Search Hotel Page",
@@ -458,7 +455,7 @@
         "steps": [
           {
             "result": {
-              "duration": 277200,
+              "duration": 831300,
               "status": "passed"
             },
             "line": 4,
@@ -470,7 +467,7 @@
           },
           {
             "result": {
-              "duration": 98000,
+              "duration": 885800,
               "status": "passed"
             },
             "line": 5,
@@ -486,7 +483,7 @@
         "before": [
           {
             "result": {
-              "duration": 103600,
+              "duration": 800200,
               "status": "passed"
             },
             "match": {
@@ -501,8 +498,9 @@
         "after": [
           {
             "result": {
-              "duration": 198700,
-              "status": "passed"
+              "duration": 1274600,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.adactin.baseclass.BaseClass.getScreenshot(BaseClass.java:121)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.afterHooks(Scenario)"
@@ -514,8 +512,9 @@
         "steps": [
           {
             "result": {
-              "duration": 274740300,
-              "status": "passed"
+              "duration": 43024500,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.adactin.baseclass.BaseClass.waitForElementVisibility(BaseClass.java:54)\r\n\tat com.adactin.baseclass.BaseClass.selectDropDown(BaseClass.java:103)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_Select_the_location_as_in_Location_Field(StepDefinition.java:116)\r\n\tat ✽.When User Select the location \"New York\" as \"value\" in Location Field(src/test/java/com/adactin/feature/Adactin.feature:22)\r\n",
+              "status": "failed"
             },
             "line": 22,
             "name": "User Select the location \"New York\" as \"value\" in Location Field",
@@ -536,8 +535,7 @@
           },
           {
             "result": {
-              "duration": 161116000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "User select the Hotel \"Hotel Sunshine\" as \"visibletext\" in Hotel Field",
@@ -558,8 +556,7 @@
           },
           {
             "result": {
-              "duration": 130461600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "User select Type of room \"Super Deluxe\" as \"value\" in RoomType Field",
@@ -580,8 +577,7 @@
           },
           {
             "result": {
-              "duration": 98653700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "User select  number of  rooms \"1\" as \"value\" to booked in NumberofRooms field",
@@ -602,8 +598,7 @@
           },
           {
             "result": {
-              "duration": 109829300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "User enters the check in date in the checkInDate Field",
@@ -614,8 +609,7 @@
           },
           {
             "result": {
-              "duration": 111823400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "User enters the check out date in the CheckOutDate Field",
@@ -626,8 +620,7 @@
           },
           {
             "result": {
-              "duration": 171205400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
             "name": "User select the number of Adults staying in the AdultPerRoom field",
@@ -638,8 +631,7 @@
           },
           {
             "result": {
-              "duration": 135327100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 29,
             "name": "User select the number of Children staying in the ChildrenPerRoomField",
@@ -650,8 +642,7 @@
           },
           {
             "result": {
-              "duration": 1264300900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 30,
             "name": "User click on the Search Button",
@@ -662,8 +653,7 @@
           },
           {
             "result": {
-              "duration": 62400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 31,
             "name": "User verify the SearchHotelpage navigate to SelectHotelPage",
@@ -683,7 +673,7 @@
         "steps": [
           {
             "result": {
-              "duration": 255300,
+              "duration": 879300,
               "status": "passed"
             },
             "line": 4,
@@ -695,7 +685,7 @@
           },
           {
             "result": {
-              "duration": 122000,
+              "duration": 2107100,
               "status": "passed"
             },
             "line": 5,
@@ -711,7 +701,7 @@
         "before": [
           {
             "result": {
-              "duration": 152200,
+              "duration": 824200,
               "status": "passed"
             },
             "match": {
@@ -726,8 +716,9 @@
         "after": [
           {
             "result": {
-              "duration": 76300,
-              "status": "passed"
+              "duration": 2868600,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.adactin.baseclass.BaseClass.getScreenshot(BaseClass.java:121)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.afterHooks(Scenario)"
@@ -739,8 +730,9 @@
         "steps": [
           {
             "result": {
-              "duration": 90995400,
-              "status": "passed"
+              "duration": 20900800,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.adactin.baseclass.BaseClass.waitForElementVisibility(BaseClass.java:54)\r\n\tat com.adactin.baseclass.BaseClass.clickOnElement(BaseClass.java:71)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_select_the_hotel_in_the_select_option_Field(StepDefinition.java:186)\r\n\tat ✽.When User select the hotel in the select option Field(src/test/java/com/adactin/feature/Adactin.feature:35)\r\n",
+              "status": "failed"
             },
             "line": 35,
             "name": "User select the hotel in the select option Field",
@@ -751,8 +743,7 @@
           },
           {
             "result": {
-              "duration": 512648400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "User click on Continue Button",
@@ -763,8 +754,7 @@
           },
           {
             "result": {
-              "duration": 19300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "User verify the SelectHotelPage Navigte to Book A Hotel page",
@@ -784,7 +774,7 @@
         "steps": [
           {
             "result": {
-              "duration": 91900,
+              "duration": 1217600,
               "status": "passed"
             },
             "line": 4,
@@ -796,7 +786,7 @@
           },
           {
             "result": {
-              "duration": 74400,
+              "duration": 2999600,
               "status": "passed"
             },
             "line": 5,
@@ -812,7 +802,7 @@
         "before": [
           {
             "result": {
-              "duration": 85800,
+              "duration": 1033500,
               "status": "passed"
             },
             "match": {
@@ -827,8 +817,9 @@
         "after": [
           {
             "result": {
-              "duration": 91900,
-              "status": "passed"
+              "duration": 1513800,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.adactin.baseclass.BaseClass.getScreenshot(BaseClass.java:121)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.afterHooks(Scenario)"
@@ -840,8 +831,9 @@
         "steps": [
           {
             "result": {
-              "duration": 262270200,
-              "status": "passed"
+              "duration": 5469100,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.adactin.baseclass.BaseClass.waitForElementVisibility(BaseClass.java:54)\r\n\tat com.adactin.baseclass.BaseClass.inputToElement(BaseClass.java:60)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_enters_the_valid_first_name_in_FirstName_Field(StepDefinition.java:206)\r\n\tat ✽.When User enters the valid first name in FirstName Field(src/test/java/com/adactin/feature/Adactin.feature:40)\r\n",
+              "status": "failed"
             },
             "line": 40,
             "name": "User enters the valid first name in FirstName Field",
@@ -852,8 +844,7 @@
           },
           {
             "result": {
-              "duration": 151398300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 41,
             "name": "User enters the valid last name in LastName Field",
@@ -864,8 +855,7 @@
           },
           {
             "result": {
-              "duration": 152016200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 42,
             "name": "User enters the valid Billing address in Billing Address Field",
@@ -876,8 +866,7 @@
           },
           {
             "result": {
-              "duration": 150288400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 43,
             "name": "User enters the valid credit card number in the CreditCardNumber Field",
@@ -888,8 +877,7 @@
           },
           {
             "result": {
-              "duration": 160909800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 44,
             "name": "User select  the type of credit in CreditCardType Field",
@@ -900,8 +888,7 @@
           },
           {
             "result": {
-              "duration": 126630800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 45,
             "name": "User select Expiry month of credit card in ExpiryDate Field",
@@ -912,8 +899,7 @@
           },
           {
             "result": {
-              "duration": 130870800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 46,
             "name": "User select Expiry year of credit card in ExpiryDate Field",
@@ -924,8 +910,7 @@
           },
           {
             "result": {
-              "duration": 96579500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 47,
             "name": "User enters the valid CVV number in the CVVNumber Field",
@@ -936,8 +921,7 @@
           },
           {
             "result": {
-              "duration": 98200700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 48,
             "name": "User click on the BookNow Button",
@@ -948,8 +932,7 @@
           },
           {
             "result": {
-              "duration": 23300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 49,
             "name": "User verify the Book A Hotel Page navigate to Booking Confirmation Page",
@@ -969,7 +952,7 @@
         "steps": [
           {
             "result": {
-              "duration": 98200,
+              "duration": 1089400,
               "status": "passed"
             },
             "line": 4,
@@ -981,7 +964,7 @@
           },
           {
             "result": {
-              "duration": 82400,
+              "duration": 1967900,
               "status": "passed"
             },
             "line": 5,
@@ -997,7 +980,7 @@
         "before": [
           {
             "result": {
-              "duration": 89500,
+              "duration": 1632600,
               "status": "passed"
             },
             "match": {
@@ -1012,8 +995,9 @@
         "after": [
           {
             "result": {
-              "duration": 841900,
-              "status": "passed"
+              "duration": 3645800,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.adactin.baseclass.BaseClass.getScreenshot(BaseClass.java:121)\r\n\tat com.adactin.stepdefinition.Hooks.afterHooks(Hooks.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.afterHooks(Scenario)"
@@ -1025,8 +1009,9 @@
         "steps": [
           {
             "result": {
-              "duration": 6162302700,
-              "status": "passed"
+              "duration": 55986100,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.adactin.baseclass.BaseClass.waitForElementVisibility(BaseClass.java:54)\r\n\tat com.adactin.baseclass.BaseClass.clickOnElement(BaseClass.java:71)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_click_on_the_Book_Itinerary_Button(StepDefinition.java:278)\r\n\tat ✽.When User click on the Book Itinerary Button(src/test/java/com/adactin/feature/Adactin.feature:52)\r\n",
+              "status": "failed"
             },
             "line": 52,
             "name": "User click on the Book Itinerary Button",
@@ -1037,8 +1022,7 @@
           },
           {
             "result": {
-              "duration": 410207300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 53,
             "name": "User click on LogOut button",
@@ -1049,8 +1033,7 @@
           },
           {
             "result": {
-              "duration": 20300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 54,
             "name": "User verify Book Itinerary page navigate to sucessfully Logged Out page",
